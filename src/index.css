@@ -1,0 +1,145 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.primary-color {
+  background: white;
+}
+
+.secondary-color {
+  background: gray;
+}
+
+.red-checker {
+  color: red;
+}
+
+.black-checker {
+  color: black;
+}
+
+.normal-move {
+  background: blue;
+}
+
+.jump-move {
+  background: green;
+}
+
+.tic-tac-toe-square {
+  border: 1px solid #white;
+  float: left;
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 158.3px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 158.3px;
+  background: orange;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.winner-headline {
+  text-align: center;
+  margin-top:20px;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.stat-box {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #dee2e6;
+    border: 1px solid;
+    width: 100%;
+    font-weight: 550;
+
+}
+
+.scoreboard-btn {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: green;
+    border: 1px solid;
+    width:100%;
+    font-weight: 550;
+    color:white;
+}
+
+.team-color-1{
+  color:red;
+}
+
+.team-color-2{
+  color:black;
+}
+
+.stats{
+  float:right;
+}
+
+.stat-box-container {
+  height:22%;
+}
+
+.scoreboard-btn-container {
+  height:78%;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height:100%;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.scoreboard {
+  background: white;
+  padding:20px;
+  width:240px;
+}
+
+.game-board {
+  margin-right:100px;
+}
